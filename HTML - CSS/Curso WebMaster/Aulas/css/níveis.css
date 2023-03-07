@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+/*
+.lista,.lista2{
+	list-style-position: inside;
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+.lista li,.lista2 li{
+	color: green;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.lista .item3, .lista2 .item3{
+	font-weight: bold;
+}
+*/
+
+/*
+ol{
+	list-style-position: inside;
+	list-style-type: decimal;
+}
+
+ol >li{
+	color: red;
+}
+*/
+
+/*
+.um{
+	width: 500px;
+	height: 500px;
+	background: red;
+}
+
+.um > .dois{
+	width: 300px;
+	height: 300px;
+	background: green;
+}
+
+.um > .tres{
+	width: 150px;
+	height: 150px;
+	background: blue;
+}
+
+.um .quatro{
+	width: 100px;
+	height: 100px;
+	background: gray;
+}
+*/
+
+.tipo1{
+	color: rgb(100, 100, 100);
+}
+
+.link_{
+	font-size: 30px;
+}
+
+.tipo2{
+	font-size: 40px;
+}

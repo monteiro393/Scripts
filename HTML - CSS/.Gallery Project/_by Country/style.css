@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	height: 1340px;
+}
+
+@font-face { /*Fonte*/
+	font-family: "Raleway";
+	src: url(../RalewayRegular.ttf);
+}
+
+@font-face { /*Fonte*/
+	font-family: "NanumGothic";
+	src: url(../NanumGothicRegular.ttf);
+}
+
+body { /*Página toda*/
+	background-color: rgb(230, 230, 230); /*Cinza*/
+}
+
+/*MENU*/
+
+.menu { /*Menu*/
+	overflow: hidden;
+	/*	position: fixed; --> Menu fixado
+		width: 100%; */
+	background-color: #29862F; /*Verde*/
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.menu a { /*Links do Menu*/
+	float: left;
+	padding: 30px 25px;
+	font-family: "NanumGothic";
+		color: white; /*Branco*/
+		font-size: 22px;
+		text-decoration: none;
+		text-shadow: 2.3px 2.3px rgba(0,0,0,0.40);
+}
+
+.submenu { /*Sub-menu*/
+	float: left;
+	overflow: hidden;
+}
+
+.submenu .submenubtn { /*Sub-menu e Menu-primário*/
+	border: none;
+	outline: none;
+	padding: 30px 25px;
+	margin: 0;
+	background-color: inherit;
+	font-family: "NanumGothic";
+		color: white; /*Branco*/
+		font-size: 22px;
+		text-shadow: 2.3px 2.3px rgba(0,0,0,0.40);
+	
+}
+
+.menu a:hover, .submenu:hover .submenubtn:hover { /*Ao passar o mouse sobre o menu*/
+	background-color: #226526; /*verde-Escuro*/
+	transition-duration: 0.3s;
+}
+
+.submenucontent { /*Conteúdo do sub-menu*/
+	display: none;
+	width: 100%;
+	position: absolute;
+		left: 0;
+	background-color: #226526; /*verde-Escuro*/
+	z-index: 1;
+}
+
+.submenucontent a { /*Links do sub-menu*/
+	float: left;
+	font-family: "NanumGothic";
+		color: white;
+		text-decoration: none;
+}
+
+.submenucontent a:hover { /*Ao passar o mouse sobre os links do sub-menu*/
+	background-color: #1D5520; /*Verde muito escuro*/
+	transition-duration: 0.3s;
+}
+
+.submenu:hover .submenucontent { /*Mostrar submenu ao passar o mouse sobre*/
+	display: block;
+}
+
+/*FIM DO MENU*/
+
+/*CONTEÚDO DA PÁGINA*/
+
+.bodycontent {
+	overflow: hidden;
+	background-color: #B0B0B0; /*Cinza Escuro*/
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 250px;
+	margin: 50px 50px;
+	display: block;
+
+}
+
+.bodycontent a {
+	float: left;
+	padding: 50px 100% 50px 50px;
+	font-family: "NanumGothic";
+		font-size: 25px;
+		color: white;
+		text-decoration: none;
+		text-shadow: 2.3px 2.3px rgba(0,0,0,0.40);
+}
+
+.bodycontent a:hover {
+	background-color: #D5D5D5; /*Cinza*/
+	transition-duration: 0.3s;
+}

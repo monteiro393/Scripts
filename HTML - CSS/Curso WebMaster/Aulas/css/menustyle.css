@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%
+}
+
+.menu{
+	width: 900;
+	background-color: green;
+	margin: 30px auto;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+	/*
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	*/
+
+	/*
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	*/
+}
+
+.menu > a{
+	font-size: 20px;
+	margin: 0 10px;
+	color: lime;
+	border: 1px solid black;
+	text-decoration: none;
+}

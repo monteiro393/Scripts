@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+html,body{
+	height: 100%;
+}
+
+.bg{
+	/*
+	width: 100%;
+	margin: 0 auto;
+	height: 30vw;
+	background-image: url('../images/01.jfif');
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: red;
+	background-repeat: no-repeat;
+	*/
+	/*
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	*/
+}
+
+.box{
+	width:  100%;
+	margin: 80px auto;
+	text-align: center;
+	background-color: gray;
+}
+
+.item{
+	width: 33.3%
+	display: inline-block;
+	margin-right: -4px;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+}

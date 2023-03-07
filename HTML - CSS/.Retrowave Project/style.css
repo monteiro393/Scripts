@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+@font-face{ /*Fonte*/
+	font-family: "Lazer84";
+	src: url(Lazer84.ttf);
+}
+
+/*RESPONSIVA*/
+
+@media only screen and (min-width: 1080px){ /*Tela do Computador*/
+	body{ /*Página*/
+	background-image: url(retrowave.gif);
+	background-size: cover;
+	min-width: 100%;
+	}
+
+	p{ /*Texto*/
+	letter-spacing: 25px;
+	/*	line-height: 30px; */
+	font-family: "Lazer84";
+	font-size: 6vw;
+	text-align: center;
+	text-shadow: 5px 5px rgba(255, 144, 31, 1), 9px 9px rgba(255, 41, 117, 1), 13px 13px rgba(199, 0, 181, 1);
+	padding-top: 100px;
+	color: #FFD319;
+	}
+}
+
+@media only screen and (max-width: 1080px){ /*Tela do Celular*/
+	body{ /*Página*/
+		background: black;
+		background-position: 0px;
+		background-image: url(retrowave.gif);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	p{ /*Texto*/
+	letter-spacing: 25px;
+	/*	line-height: 30px; */
+	font-family: "Lazer84";
+	font-size: 10vw;
+	text-align: center;
+	text-shadow: 5px 5px rgba(255, 144, 31, 1), 9px 9px rgba(255, 41, 117, 1), 13px 13px rgba(199, 0, 181, 1);
+	padding-top: 200px;
+	color: #FFD319;
+	}
+}
+
+/*FIM DA PÁGINA RESPONSIVA*/

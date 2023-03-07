@@ -1,0 +1,249 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	height: 100%;
+}
+
+@font-face { /*Fonte Raleway Light*/
+	font-family: "RLight";
+	src: url(../Fonts/Raleway/Fonts/Raleway/Fonts/Raleway/RalewayLight.ttf);
+}
+
+@font-face { /*Fonte Raleway Light Itálica*/
+	font-family: "RLightItalic";
+	src: url(../Fonts/Raleway/RalewayLightItalic.ttf);
+}
+
+@font-face { /*Fonte Raleway Regular*/
+	font-family: "RRegular";
+	src: url(../Fonts/Raleway/RalewayRegular.ttf);
+}
+
+@font-face { /*Fonte Raleway Regular Itálica*/
+	font-family: "RRegularItalic";
+	src: url(../Fonts/Raleway/Fonts/Raleway/RalewayRegularItalic.ttf);
+}
+
+@font-face { /*Fonte Raleway SemiBold*/
+	font-family: "RSemiBold";
+	src: url(../Fonts/Raleway/RalewaySemiBold.ttf);
+}
+
+@font-face { /*Fonte Raleway SemiBold Itálica*/
+	font-family: "RSemiBoldItalic";
+	src: url(../Fonts/Raleway/RalewaySemiBoldItalic.ttf);
+}
+
+@font-face { /*Fonte Alatsi*/
+	font-family: "Alatsi";
+	src: url(../Fonts/Alatsi/AlatsiRegular.ttf);
+}
+
+@font-face { /*Fonte Gupter Regular*/
+	font-family: "GupterRegular";
+	src: url(../Fonts/Gupter/GupterRegular.ttf);
+}
+
+@font-face { /*Fonte Gupter Medium*/
+	font-family: "GupterMedium";
+	src: url(../Fonts/Gupter/GupterMedium.ttf);
+}
+
+@font-face { /*Fonte Gupter Bold*/
+	font-family: "GupterBold";
+	src: url(../Fonts/Gupter/GupterBold.ttf);
+}
+
+@font-face { /*Fonte Baskervville Regular*/
+	font-family: "BskvRegular";
+	src: url(../Fonts/Baskervville/BaskervvilleRegular.ttf);
+}
+
+@font-face { /*Fonte Baskervville Regular Itálico*/
+	font-family: "BskvItalic";
+	src: url(../Fonts/Baskervville/BaskervvilleItalic.ttf);
+}
+
+body { /*Página toda*/
+	background-color: rgb(230, 230, 230); /*Cinza*/
+}
+
+/*Menu*/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #E6E6E6;
+	border-bottom: 1px solid #014C90;
+
+}
+
+li {
+	float: left;
+	border-right: 1px solid #014C90;
+}
+
+li a:not(.active){
+	display: block;
+	font-family: "RSemiBold";
+		color: #014C90;
+		text-align: center;
+		text-decoration: none;
+	padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+	color: #E6E6E6;
+	background-color: #014C90;
+	transition-duration: 0.3s;
+}
+
+.active {
+	display: block;
+	font-family: "rSemiBold";
+		color: #E6E6E6;
+		text-align: center;
+		text-decoration: none;
+	padding: 14px 16px;
+	background-color: #014C90;
+}
+
+/*Fim do Menu*/
+
+/*Conteúdo*/
+
+.parallax01 {
+	background-image: url("01.jpg");
+	min-height: 550px; 
+  		background-attachment: fixed;
+  		background-position: center;
+  		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.title01 { /*"Bem Vindo a Ford"*/
+	font-family: "BskvRegular";
+		font-size: 65px;
+		color: #E6E6E6;
+		text-align: center;
+		text-decoration: none;
+		text-shadow: 2.3px 2.3px rgba(0,0,0,0.40);
+	padding: 150px 80px;
+	transition-duration: 0.3s;
+		
+}
+
+.description01 { /*Ford GT 2018*/
+	font-family: "GupterRegular";
+		font-size: 15px;
+		color: #E6E6E6;
+		text-align: right;
+	position: absolute;
+		top: 550px;
+		right: 20px;
+		text-shadow: 2.3px 2.3px rgba(0,0,0,0.40);
+}
+
+.text01 { /*Primeiro Bloco*/
+	display: block;
+	height: 400px;
+	background-color: #014C90;
+	font-family: "Alatsi";
+		font-size: 30px;
+		text-align: center;
+		text-decoration: none;
+		text-shadow: 2.3px 2.3px rgba(0,0,0,0.40);
+		color: #E6E6E6;
+	padding: 50px 80px;
+}
+
+.parallax02 {
+	background-image: url("02.jpg");
+	min-height: 550px; 
+  		background-attachment: fixed;
+  		background-position: center;
+  		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.title02 { /*Confiabilidade*/
+	font-family: "GupterMedium";
+		font-size: 50px;
+		color: #E6E6E6;
+		text-align: left;
+		text-decoration: none;
+		text-shadow: 2.3px 2.3px rgba(0,0,0,0.40);
+	padding: 150px 80px;
+}
+
+.description02 { /*Ford Mustang 2018*/
+	font-family: "GupterRegular";
+		font-size: 15px;
+		color: #E6E6E6;
+		text-align: right;
+	position: absolute;
+		top: 1600px;
+		right: 20px;
+		text-shadow: 2.3px 2.3px rgba(0,0,0,0.40);
+}
+
+.text02 { /*Segundo Bloco*/
+	display: block;
+	height: 400px;
+	background-color: #014C90;
+	font-family: "Alatsi";
+		font-size: 30px;
+		text-align: center;
+		text-decoration: none;
+		text-shadow: 2.3px 2.3px rgba(0,0,0,0.40);
+		color: #E6E6E6;
+	padding: 50px 80px;
+}
+
+.parallax03 {
+	background-image: url("03.jpg");
+	min-height: 550px; 
+  		background-attachment: fixed;
+  		background-position: center;
+  		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.title03 { /*Carisma*/
+	font-family: "GupterMedium";
+		font-size: 50px;
+		color: #E6E6E6;
+		text-align: left;
+		text-decoration: none;
+		text-shadow: 2.3px 2.3px rgba(0,0,0,0.40);
+	padding: 150px 80px;
+}
+
+.description03 { /*Ford Focus 2019*/
+	font-family: "GupterRegular";
+		font-size: 15px;
+		color: #E6E6E6;
+		text-align: right;
+	position: absolute;
+		top: 2650px;
+		right: 20px;
+		text-shadow: 2.3px 2.3px rgba(0,0,0,0.40);
+}
+
+.text03 { /*Terceiro Bloco*/
+	display: block;
+	height: 400px;
+	background-color: #014C90;
+	font-family: "Alatsi";
+		font-size: 30px;
+		text-align: center;
+		text-decoration: none;
+		text-shadow: 2.3px 2.3px rgba(0,0,0,0.40);
+		color: #E6E6E6;
+	padding: 50px 80px;
+}
