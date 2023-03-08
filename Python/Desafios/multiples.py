@@ -1,5 +1,3 @@
-import random
-
 lista_multiplos = []    ## Inicia uma lista com os múltiplos
 
 print("-" * 32)
