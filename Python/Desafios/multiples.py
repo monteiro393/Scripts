@@ -1,5 +1,3 @@
-import random
-
 lista_multiplos = []    ## Inicia uma lista com os múltiplos
 
 print("-" * 32)
@@ -44,14 +42,3 @@ print()
 
 soma = sum(lista_multiplos) ## Soma os múltiplos
 print("> A soma dos multiplos até {} é {}".format(limite, soma))  ## Exibe a soma
-
-
-
-
-            
-        
-
-
-
-
-# AINDA ESTOU EDITANDO ESSE CÓDIGO
